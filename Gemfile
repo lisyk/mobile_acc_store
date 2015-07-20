@@ -57,4 +57,10 @@ group :development, :test do
   gem 'spring'
 
   gem "pry-rails"
+
+  gem 'rspec-rails', '~> 3.0'
+end
+
+group :test do
+  gem 'shoulda-matchers'
 end
